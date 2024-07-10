@@ -1,0 +1,343 @@
+{
+    "intents": [
+        {
+            "tag": "greeting",
+            "patterns": [
+                "Hi",
+                "Hello",
+                "Hey there",
+                "Good morning",
+                "How are you?"
+            ],
+            "responses": [
+                "Hello! How can I help you today?",
+                "Hi there! What can I do for you?",
+                "Hey! How's it going?",
+                "Good morning! How can I assist you?"
+            ]
+        },
+        {
+            "tag": "weather",
+            "patterns": [
+                "What's the weather like today?",
+                "Is it going to rain tomorrow?",
+                "How's the weather in [city]?",
+                "Tell me about today's weather forecast.",
+                "Will it be sunny this weekend?"
+            ],
+            "responses": [
+                "The weather today is sunny with a high of 25\u00b0C.",
+                "Tomorrow's forecast predicts rain in the afternoon.",
+                "In [city], it's currently 20\u00b0C and partly cloudy.",
+                "Today will be sunny with a slight chance of showers.",
+                "This weekend looks like it will be sunny and warm."
+            ]
+        },
+        {
+            "tag": "restaurant_recommendations",
+            "patterns": [
+                "Can you recommend a good restaurant?",
+                "I'm looking for Italian food.",
+                "Any sushi restaurants nearby?",
+                "Where can I find a vegetarian restaurant?",
+                "What's a popular place for brunch?"
+            ],
+            "responses": [
+                "Sure! How about [Restaurant A]? They have great reviews.",
+                "For Italian food, you should try [Restaurant B] downtown.",
+                "There's a sushi place called [Restaurant C] just a few blocks away.",
+                "You can find a vegetarian restaurant called [Restaurant D] on Main Street.",
+                "One popular place for brunch is [Restaurant E] on the waterfront."
+            ]
+        },
+        {
+            "tag": "product_information",
+            "patterns": [
+                "Tell me about your products.",
+                "What types of products do you offer?",
+                "Can you help me choose a product?",
+                "I need information on [product name].",
+                "How much does [product name] cost?"
+            ],
+            "responses": [
+                "We offer a wide range of products including electronics, clothing, and accessories.",
+                "Our products include smartphones, laptops, headphones, and more.",
+                "Sure, I can assist you in choosing the right product. What are you looking for?",
+                "Which product are you interested in? I can provide details.",
+                "The price of [product name] is [price]."
+            ]
+        },
+        {
+            "tag": "booking_flights",
+            "patterns": [
+                "I want to book a flight.",
+                "Can you help me find a flight to [destination]?",
+                "What are the available flights for [date]?",
+                "How much does a ticket to [destination] cost?",
+                "Can I change my flight booking?"
+            ],
+            "responses": [
+                "Sure! Where would you like to fly to and from?",
+                "Let me check for flights to [destination].",
+                "Please provide me with the date of your travel.",
+                "The cost of a ticket to [destination] depends on the date and time of booking.",
+                "Yes, you can change your flight booking. Please provide your booking details."
+            ]
+        },
+        {
+            "tag": "tech_support",
+            "patterns": [
+                "I'm having trouble with my [device].",
+                "How do I troubleshoot [issue]?",
+                "Can you help me fix [problem]?",
+                "My [device] isn't working properly.",
+                "Do you provide tech support?"
+            ],
+            "responses": [
+                "I'm sorry to hear that. What seems to be the problem with your [device]?",
+                "To troubleshoot [issue], you can try [solution].",
+                "Sure, I can guide you through fixing [problem].",
+                "Let's diagnose what's wrong with your [device].",
+                "Yes, we provide tech support. How can I assist you?"
+            ]
+        },
+        {
+            "tag": "order_tracking",
+            "patterns": [
+                "Where is my order?",
+                "Can you track my package?",
+                "What's the status of my order?",
+                "When will my order arrive?",
+                "I haven't received my order yet."
+            ],
+            "responses": [
+                "Please provide your order number so I can check the status.",
+                "I can help you track your order. Could you please provide the tracking number?",
+                "Let me check the status of your order. Please wait a moment.",
+                "Your order is expected to arrive by [date].",
+                "I apologize for the delay. Let me investigate and provide you with an update."
+            ]
+        },
+        {
+            "tag": "account_support",
+            "patterns": [
+                "I forgot my password.",
+                "How do I change my email address?",
+                "Can I update my account information?",
+                "I'm unable to login.",
+                "How do I delete my account?"
+            ],
+            "responses": [
+                "You can reset your password through the password recovery option on the login page.",
+                "To change your email address, go to your account settings.",
+                "Yes, you can update your account information in your profile settings.",
+                "Let me assist you in recovering your account. Please provide your username.",
+                "Account deletion requests are processed through our support team. Please contact us for assistance."
+            ]
+        },
+        {
+            "tag": "appointment_booking",
+            "patterns": [
+                "How do I schedule an appointment?",
+                "Can I book an appointment online?",
+                "I need to see a doctor. How can I make an appointment?",
+                "What are your available appointment times?",
+                "Can you help me reschedule my appointment?"
+            ],
+            "responses": [
+                "You can schedule an appointment online through our website.",
+                "Yes, our online booking system allows you to book appointments conveniently.",
+                "To book a medical appointment, please call our clinic or use our online booking system.",
+                "Our available appointment times are [list times].",
+                "Sure, I can assist you with rescheduling your appointment. Please provide your appointment details."
+            ]
+        },
+        {
+            "tag": "general_info",
+            "patterns": [
+                "What can you tell me about your company?",
+                "Where are you located?",
+                "How long have you been in business?",
+                "What are your business hours?",
+                "Do you have any special promotions?"
+            ],
+            "responses": [
+                "We are a company specializing in [industry].",
+                "Our headquarters is located in [city, country].",
+                "We have been in business for [number] years.",
+                "Our business hours are [hours of operation].",
+                "Yes, we currently have [promotion details]."
+            ]
+        },
+        {
+            "tag": "job_application",
+            "patterns": [
+                "Are you hiring?",
+                "How can I apply for a job?",
+                "What positions are available?",
+                "Do you offer internships?",
+                "Can you tell me about your recruitment process?"
+            ],
+            "responses": [
+                "Yes, we are currently hiring for positions in [department/role].",
+                "You can apply for a job through our careers page on our website.",
+                "We have openings for [list of positions].",
+                "Yes, we offer internships in [department/role].",
+                "Our recruitment process involves [steps/process details]."
+            ]
+        },
+        {
+            "tag": "feedback",
+            "patterns": [
+                "How can I provide feedback?",
+                "Do you welcome customer feedback?",
+                "Can I leave a review?",
+                "I have a suggestion for improvement.",
+                "Where can I submit my feedback?"
+            ],
+            "responses": [
+                "We value your feedback! You can provide feedback through our website.",
+                "Yes, we appreciate customer feedback to help us improve our services.",
+                "You can leave a review on our website or social media channels.",
+                "Thank you for your suggestion. We'll take it into consideration.",
+                "You can submit your feedback through our online form or contact us directly."
+            ]
+        },
+        {
+            "tag": "event_information",
+            "patterns": [
+                "Are there any upcoming events?",
+                "What events are happening this month?",
+                "Can I attend your next event?",
+                "Where can I find information about your events?",
+                "Do you host workshops or seminars?"
+            ],
+            "responses": [
+                "Yes, we have upcoming events scheduled. Check our events calendar for details.",
+                "This month, we have [list of events] scheduled.",
+                "Yes, you are welcome to attend our next event. Here are the details.",
+                "You can find information about our events on our website.",
+                "We regularly host workshops and seminars on [topics]. Stay tuned for updates."
+            ]
+        },
+        {
+            "tag": "payment_methods",
+            "patterns": [
+                "What payment methods do you accept?",
+                "Can I pay with credit card?",
+                "Do you accept PayPal?",
+                "Is there an option for cash on delivery?",
+                "Are there any additional fees for using certain payment methods?"
+            ],
+            "responses": [
+                "We accept payments via credit card, PayPal, and bank transfer.",
+                "Yes, you can pay using a credit card.",
+                "We accept PayPal payments for online purchases.",
+                "Cash on delivery is available for certain products/services.",
+                "There may be additional fees for using certain payment methods. Please check our terms and conditions."
+            ]
+        },
+        {
+            "tag": "shipping_information",
+            "patterns": [
+                "How long does shipping take?",
+                "Do you offer international shipping?",
+                "Can I track my order?",
+                "What are your shipping charges?",
+                "Is there free shipping?"
+            ],
+            "responses": [
+                "Shipping times vary depending on your location and shipping method. Please check our shipping policy.",
+                "Yes, we offer international shipping to select countries.",
+                "You can track your order using the tracking number provided in your order confirmation email.",
+                "Shipping charges are based on the weight and destination of your order.",
+                "We offer free shipping on orders over a certain amount. Check our website for details."
+            ]
+        },
+        {
+            "tag": "customer_support",
+            "patterns": [
+                "How can I contact customer support?",
+                "I need help with a problem.",
+                "Can you connect me with a customer service representative?",
+                "My order is missing. What should I do?",
+                "I have a complaint. Who should I speak to?"
+            ],
+            "responses": [
+                "You can contact customer support through our hotline or email.",
+                "I'm here to assist you with any issues you may have.",
+                "Sure, let me connect you with a customer service representative.",
+                "I apologize for the inconvenience. Please provide your order details so we can investigate.",
+                "Please speak to our customer service manager regarding your complaint."
+            ]
+        },
+        {
+            "tag": "loyalty_program",
+            "patterns": [
+                "Do you have a loyalty program?",
+                "How can I join your rewards program?",
+                "What are the benefits of your loyalty program?",
+                "Can I earn points on my purchases?",
+                "Is there a membership fee for your loyalty program?"
+            ],
+            "responses": [
+                "Yes, we offer a loyalty program for our valued customers.",
+                "You can join our rewards program through our website or in-store.",
+                "Benefits of our loyalty program include [list of benefits].",
+                "Yes, you can earn points on eligible purchases.",
+                "Our loyalty program is free to join. There is no membership fee."
+            ]
+        },
+        {
+            "tag": "insurance_information",
+            "patterns": [
+                "Do you provide insurance services?",
+                "What types of insurance do you offer?",
+                "Can I get a quote for insurance?",
+                "How does your insurance coverage work?",
+                "Is there a deductible for insurance claims?"
+            ],
+            "responses": [
+                "Yes, we offer insurance services. How can I assist you?",
+                "We provide various types of insurance including health, life, and property insurance.",
+                "You can request a quote for insurance coverage through our website.",
+                "Our insurance coverage includes [details].",
+                "Yes, there may be a deductible depending on the type of insurance and coverage."
+            ]
+        },
+        {
+            "tag": "legal_advice",
+            "patterns": [
+                "Can you provide legal advice?",
+                "I have a legal question. Can you help?",
+                "Do you offer legal consultation?",
+                "What are your fees for legal services?",
+                "Is there a lawyer I can speak with?"
+            ],
+            "responses": [
+                "We can provide general information, but for specific legal advice, we recommend consulting a qualified attorney.",
+                "I can help answer general legal questions to the best of my ability.",
+                "Yes, we offer legal consultation services. Please contact us to schedule an appointment.",
+                "Legal service fees vary depending on the nature of the case. Please contact us for a consultation.",
+                "We have experienced lawyers available to assist you with your legal matters."
+            ]
+        },
+        {
+            "tag": "educational_courses",
+            "patterns": [
+                "Do you offer educational courses?",
+                "What subjects do you teach?",
+                "How can I enroll in a course?",
+                "Are there online courses available?",
+                "Can I get a certificate after completing a course?"
+            ],
+            "responses": [
+                "Yes, we offer a variety of educational courses.",
+                "We teach subjects such as [list of subjects].",
+                "You can enroll in a course through our website or by contacting our admissions office.",
+                "Yes, we offer online courses for remote learning.",
+                "Upon completing a course, you can receive a certificate of completion."
+            ]
+        }
+    ]
+}
